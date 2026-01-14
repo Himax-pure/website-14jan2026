@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products — Himax Pure</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <a href="index.html">
+                <div class="logo">Himax <span>Pure</span></div>
+            </a>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+<section class="page-title">
+  <h1>Our Refreshing Range</h1>
+  <p>Pure mineral water in sizes that fit your lifestyle.</p>
+</section>
+
+<main class="container">
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-badge">Most Popular</div>
+      <img src="images/500ml.png" alt="500ml Himax Pure Bottle" />
+      <div class="product-info">
+        <h3>Himax Pure 500ml</h3>
+        <p>Perfect for on-the-go hydration during travel or workouts.</p>
+        <ul class="product-specs">
+          <li>Easy-grip bottle</li>
+          <li>BPA Free Plastic</li>
+        </ul>
+        <a href="contact.html" class="order-btn">Order Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <img src="images/1l.png" alt="1L Himax Pure Bottle" />
+      <div class="product-info">
+        <h3>Himax Pure 1.0 Litre</h3>
+        <p>The ideal size for your office desk or daily home use.</p>
+        <ul class="product-specs">
+          <li>7-Stage Filtration</li>
+          <li>Eco-friendly Pack</li>
+        </ul>
+        <a href="contact.html" class="order-btn">Order Now</a>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="product-badge">Bulk Savings</div>
+      <img src="images/20l.png" alt="20L Himax Pure Jar" />
+      <div class="product-info">
+        <h3>Himax Pure 20L Jar</h3>
+        <p>Premium hydration for large families and corporate offices.</p>
+        <ul class="product-specs">
+          <li>Standard Dispenser Fit</li>
+          <li>Free Delivery</li>
+        </ul>
+        <a href="contact.html" class="order-btn">Order Now</a>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-column">
+            <div class="logo">Himax <span>Pure</span></div>
+            <p>Premium mineral water sourced from deep aquifers, providing pure hydration with every drop.</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>📍 NAHAN, DISTRICT SIRMOUR, HIMACHAL PRADESH (HP)</p>
+            <p>📞 +91 8219488767</p>
+            <p>✉️ support@himaxpure.com</p>
+        </div>
+
+        <div class="footer-column">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+                <a href="#" class="social-icon fb"><i class="fab fa-facebook-f" target="_blank" rel="noopener noreferrer"></i></a>
+                <a href="https://www.instagram.com/himaxpure?igsh=MWJva2Nwamt6OGhuYQ==" class="social-icon ig" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/himax-pure-pvt-ltd/" class="social-icon li" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-icon x"><i class="fab fa-x-twitter" target="_blank" rel="noopener noreferrer"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>
+            &copy; 2025 Himax Pure Mineral Water. All rights reserved. |
+            Designed by
+            <a href="https://migosys.com" target="_blank" class="designer-link">
+                <span class="designer-name">MIGOSYS</span>
+            </a>
+        </p>
+    </div>
+</footer>
+
+<script>
+    const menuToggle = document.getElementById('mobile-menu');
+    const navList = document.querySelector('.nav-list');
+
+    if (menuToggle) {
+        menuToggle.addEventListener('click', () => {
+            navList.classList.toggle('active');
+        });
+    }
+</script>
+
+</body>
+
+</html>
